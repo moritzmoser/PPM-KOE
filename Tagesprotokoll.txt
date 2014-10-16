@@ -1,0 +1,11 @@
+09.10.2014
+Bstieler + Moser: 	- Beschaffung des Arduinos, Steckbrett, Widerstände, Dioden, Photowiderstände, Treiberbaustein
+			- Testen der Photowiderstände mit einem schwarzen Edding auf weißem Papier		
+					-> Unterschied des Widerstandes bei schwarz und weiß messen
+			- Angefangen Testprogramm für Gleichstrommotoren zu schreiben
+
+16.10.2014
+Bstieler + Moser:
+			- Schaltung mit Arduino, Treiberbaustein und Diode aufgebaut
+			- Testprogramm für Motoren fertiggestellt 
+			- kurzer Testlauf mit Fahrzeug
