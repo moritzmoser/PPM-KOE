@@ -9,3 +9,10 @@ Bstieler + Moser:
 			- Schaltung mit Arduino, Treiberbaustein und Diode aufgebaut
 			- Testprogramm für Motoren fertiggestellt 
 			- kurzer Testlauf mit Fahrzeug
+
+23.10.2014
+Bstieler + Moser:
+			- Schaltung für Fahrzueg erneut aufgebaut
+					-> Fehlerbehebung mit Oszilloskop (Fehler: Fahrzeug funktioniert mit Stromversorgung
+					   über Batterie nur wenn GND nicht angeschlosen ist -> warum?)
+			- Überarbeiten der Schaltung damit keine Fehler mehr auftreten
