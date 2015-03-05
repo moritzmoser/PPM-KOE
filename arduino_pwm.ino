@@ -30,8 +30,8 @@ void setup() //S5 &S6 wird als OUTPUT definiert und auf LOW gesetzt.
   pinMode(led1, LOW);
   pinMode(led2, OUTPUT);
   pinMode(led2, LOW);
-  Serial.begin(9600);
-  startroutine();
+  /*Serial.begin(9600);
+  startroutine();*/
 }
 
 
@@ -128,11 +128,14 @@ int testroutine()  //testroutine erzeugt testdaten
 
 void loop()
 {
+  analogWrite(left, 255);
+  analogWrite(right, 255);
+  
   /*int se1 = analogRead(s1);
   int se2 = analogRead(s2);
   int se3 = analogRead(s3);
   int se4 = analogRead(s4);
-  */
+  
   int se1 = testroutine();
   int se2 = testroutine();
   int se3 = testroutine();
@@ -175,7 +178,7 @@ void loop()
   Serial.println(se1);
   //Serial.print("\t\t");
   delay(2000);
-  
+  */
   
 }
 
